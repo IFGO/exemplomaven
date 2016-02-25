@@ -11,19 +11,19 @@ package br.edu.ifg.figuras;
  */
 public class Quadrado extends FiguraGeometrica {
 
-    Double lado;
+    Long lado;
     
-    public Quadrado(Double lado) {
+    public Quadrado(Long lado) {
         this.lado = lado;
     }
     
     @Override
-    public Double getArea() {
+    public Long getArea() {
        return this.lado * this.lado;
     }
 
     @Override
-    public Double getPerimetro() {
+    public Long getPerimetro() {
         return 4 * this.lado;
     }
     
