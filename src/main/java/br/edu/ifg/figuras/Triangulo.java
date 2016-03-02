@@ -16,7 +16,7 @@ public class Triangulo extends FiguraGeometrica{
     Long LadoA;
     Long LadoB;
     
-    public Triangulo(Long Base, Long Altura) {
+    public Triangulo(Long Base, Long Altura, Long LadoA, Long LadoB) {
         this.Base = Base;
         this.Altura = Altura;
         this.LadoA = LadoA;
