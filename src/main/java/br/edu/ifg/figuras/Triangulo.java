@@ -24,13 +24,13 @@ public class Triangulo extends FiguraGeometrica{
     }    
     
     @Override
-    public Long getArea() {
+    public double getArea() {
         return (Base*Altura)/2;
     
     }
 
     @Override
-    public Long getPerimetro() {
+    public double getPerimetro() {
         return LadoA+LadoB+Base;
         
     }

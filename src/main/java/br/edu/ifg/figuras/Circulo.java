@@ -17,13 +17,13 @@ public class Circulo extends FiguraGeometrica{
     }
     
     @Override
-    public Long getArea() {
+    public double getArea() {
        return (long) Math.PI * (long) Math.pow(raio, 2);
     }
 
     
     @Override
-    public Long getPerimetro() {
+    public double getPerimetro() {
         return (2 * ((long) Math.PI))  * raio; 
     }
     

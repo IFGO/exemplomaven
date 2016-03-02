@@ -20,12 +20,12 @@ public class Retangulo extends FiguraGeometrica{
     }    
     
     @Override
-    public Long getArea() {
+    public double getArea() {
         return ladoX * ladoY;
     }
 
     @Override
-    public Long getPerimetro() {
+    public double getPerimetro() {
         return 2 * (ladoX + ladoY);
     }
     
