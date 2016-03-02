@@ -40,14 +40,14 @@ public class TrianguloTest {
     @Test
     public void calcularAreaCorretamente() {
         Triangulo triangulo = new Triangulo(4L, 4L, 4L, 4L);
-        assertEquals(8L, (long) triangulo.getArea());
-        assertNotEquals(11L, (long) triangulo.getArea());
+        assertEquals(8L, (double) triangulo.getArea());
+        assertNotEquals(11L, (double) triangulo.getArea());
     }
     
     @Test
     public void calcularPerimetroCorretamente() {
         Triangulo triangulo = new Triangulo(4L, 4L, 4L, 4L);
-        assertEquals(12L, (long) triangulo.getPerimetro());
-        assertNotEquals(11L, (long) triangulo.getPerimetro());
+        assertEquals(12L, (double) triangulo.getPerimetro());
+        assertNotEquals(11L, (double) triangulo.getPerimetro());
     }
 }

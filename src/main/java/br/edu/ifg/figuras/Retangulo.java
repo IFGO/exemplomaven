@@ -11,8 +11,8 @@ package br.edu.ifg.figuras;
  */
 public class Retangulo extends FiguraGeometrica{
     
-    Long ladoX;
-    Long ladoY;
+    double ladoX;
+    double ladoY;
     
     public Retangulo(Long ladoX, Long ladoY) {
         this.ladoX = ladoX;

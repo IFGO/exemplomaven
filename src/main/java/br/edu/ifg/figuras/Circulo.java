@@ -10,21 +10,21 @@ package br.edu.ifg.figuras;
  * @author Victor
  */
 public class Circulo extends FiguraGeometrica{
-    private Long raio;
+    private double raio;
     
-    public Circulo(Long raio){
+    public Circulo(double raio){
         this.raio = raio;
     }
     
     @Override
     public double getArea() {
-       return (long) Math.PI * (long) Math.pow(raio, 2);
+       return (double) Math.PI * (double) Math.pow(raio, 2);
     }
 
     
     @Override
     public double getPerimetro() {
-        return (2 * ((long) Math.PI))  * raio; 
+        return (2 * ((double) Math.PI))  * raio; 
     }
     
 }

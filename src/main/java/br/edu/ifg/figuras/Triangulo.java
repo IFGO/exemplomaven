@@ -11,12 +11,12 @@ package br.edu.ifg.figuras;
  */
 public class Triangulo extends FiguraGeometrica{
     
-    Long Base;
-    Long Altura;
-    Long LadoA;
-    Long LadoB;
+    double Base;
+    double Altura;
+    double LadoA;
+    double LadoB;
     
-    public Triangulo(Long Base, Long Altura, Long LadoA, Long LadoB) {
+    public Triangulo(double Base, double Altura, double LadoA, double LadoB) {
         this.Base = Base;
         this.Altura = Altura;
         this.LadoA = LadoA;

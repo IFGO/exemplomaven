@@ -11,9 +11,9 @@ package br.edu.ifg.figuras;
  */
 public class Quadrado extends FiguraGeometrica {
 
-    Long lado;
+    double lado;
     
-    public Quadrado(Long lado) {
+    public Quadrado(double lado) {
         this.lado = lado;
     }
     
