@@ -37,14 +37,14 @@ public class RetanguloTest {
     @Test
     public void deveCalcularAreaCorretamente(){
         Retangulo retangulo = new Retangulo(4L,8L);
-        assertEquals(32L,(double) retangulo.getArea());
+        assertEquals(32L,(double) retangulo.getArea(), 0);
         
     }
     
     @Test
     public void deveCalcularPerimetroCorretamente(){
         Retangulo retangulo = new Retangulo(4L,8L);
-        assertEquals(21L,(double) retangulo.getPerimetro());   
+        assertEquals(24L,(double) retangulo.getPerimetro(), 0);   
     }
 
 }

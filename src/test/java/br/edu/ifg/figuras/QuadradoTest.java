@@ -40,14 +40,14 @@ public class QuadradoTest {
     @Test
     public void calcularAreaCorretamente() {
         Quadrado quadrado = new Quadrado(3L);
-        assertEquals(9L, (double) quadrado.getArea());
+        assertEquals(9L, (double) quadrado.getArea(), 0);
         assertNotEquals(11L, (double) quadrado.getArea());
     }
     
     @Test
     public void calcularPerimetroCorretamente() {
         Quadrado quadrado = new Quadrado(3L);
-        assertEquals(12L, (double) quadrado.getPerimetro());
+        assertEquals(12L, (double) quadrado.getPerimetro(), 0);
         assertNotEquals(11L, (double) quadrado.getPerimetro());
     }
 }
