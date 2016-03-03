@@ -41,7 +41,7 @@ public class QuadradoTest {
     public void calcularAreaCorretamente() {
         Quadrado quadrado = new Quadrado(3L);
         assertEquals(9L, (double) quadrado.getArea(), 0);
-        assertNotEquals(11L, (double) quadrado.getArea());
+        assertNotEquals(12L, (double) quadrado.getArea());
     }
     
     @Test
