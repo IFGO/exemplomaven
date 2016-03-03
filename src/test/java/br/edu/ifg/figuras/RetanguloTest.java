@@ -41,18 +41,10 @@ public class RetanguloTest {
         
     }
     
-        @Test
-        public void deveCalcularPerimetroCorretamente(){
+    @Test
+    public void deveCalcularPerimetroCorretamente(){
         Retangulo retangulo = new Retangulo(4L,8L);
-
-        assertEquals(21L,(long) retangulo.getPerimetro());
-        
+        assertEquals(21L,(long) retangulo.getPerimetro());   
     }
 
-
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
 }
