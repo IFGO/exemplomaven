@@ -18,12 +18,12 @@ public class Quadrado extends FiguraGeometrica {
     }
     
     @Override
-    public Long getArea() {
+    public double getArea() {
        return this.lado * this.lado;
     }
 
     @Override
-    public Long getPerimetro() {
+    public double getPerimetro() {
         return 4 * this.lado;
     }
     

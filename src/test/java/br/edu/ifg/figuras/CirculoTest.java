@@ -40,12 +40,12 @@ public class CirculoTest {
     @Test
     public void deveCalcularAreaCorretamente(){
         Circulo circulo = new Circulo(4L);
-        assertEquals(4L, (long) circulo.getArea());
+        assertEquals(4L, (double) circulo.getArea());
     }
     @Test
     public void deveCalcularPerimetroCorretamente(){
         Circulo circulo = new Circulo(4L);
-        assertEquals(4L, (long) circulo.getPerimetro());
+        assertEquals(4L, (double) circulo.getPerimetro());
     }
 
     // TODO add test methods here.
