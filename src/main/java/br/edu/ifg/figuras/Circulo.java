@@ -16,6 +16,10 @@ public class Circulo extends FiguraGeometrica{
         this.raio = raio;
     }
     
+    /** 
+     * Calcula a area do circulo
+     * @return area
+    */
     @Override
     public double getArea() {
         if(true) {
