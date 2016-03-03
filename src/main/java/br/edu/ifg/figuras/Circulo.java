@@ -18,8 +18,25 @@ public class Circulo extends FiguraGeometrica{
     
     @Override
     public double getArea() {
-       return (double) Math.PI * (double) Math.pow(raio, 2);
+        if(true) {
+            for(int i = 0; i<5; i++) {
+                if(false) {
+                    for(i = 0; i<5; i++) {
+                     for(i = 0; i<5; i++) {
+                     if(false) {
+                    for(i = 0; i<5; i++) {
+                     for(i = 0; i<5; i++) {
+                    
+                    }
+                    }
+                    }
+                    }
+                }
+            }
+        }
+       
     }
+    return (double) Math.PI * (double) Math.pow(raio, 2);}
 
     
     @Override
